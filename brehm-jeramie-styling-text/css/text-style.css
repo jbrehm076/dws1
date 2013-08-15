@@ -1,0 +1,90 @@
+body { 
+ 	font-family: 'Palatino Linotype';
+  	margin-left: 10%;
+   	margin-right: 10%;
+}
+
+a:link {
+   	background-color: white;
+  	color: red;
+}
+
+a:visited { 
+ 	background-color: black;
+  	color: yellow;
+}
+
+a:hover { 
+   	background-color: red;
+   	color: black;
+}
+
+a:active {
+ 	background-color: blue;
+  	color: lightgreen;
+}
+
+h1 { 
+  	font-family: 'Londrina Outline', cursive;  /*line for google fonts */
+   	font-size: 200%;
+   	text-transform: uppercase;
+   	text-shadow: 2px 2px black;
+   	margin-left: -8%;
+   	word-spacing: 20px;
+}
+
+h2,h3,p { 
+  	padding: 10px;
+}
+
+#fsm {
+   	float: left;
+   	box-shadow: 3px 3px 4px gray;
+   	text-align: center;
+   	font-family: 'Lucida Grande';
+   	font-style: italic;
+}
+
+#emblem { 
+   	float: right;
+   	box-shadow: 3px 3px 4px black; /*changed to black because the gray didn't look good*/
+   	text-align: center;
+   	font-family: 'Lucida Grande';
+   	font-style: italic;
+}
+
+#general {
+   	box-shadow: 1px 1px 1px black;
+}
+
+#history { 
+   	box-shadow: 1px 1px 1px black;
+}
+
+#history h2{ 
+   	text-shadow: 1px 1px lightgray;
+}
+
+#history blockquote{ 
+  	line-height: 90%;  /*required item */
+}
+
+#phenom {
+ 	box-shadow: 1px 1px 1px black;
+}
+#phenom h3 {
+  	text-shadow: 1px 1px darkgray;
+}
+
+#links {
+ 	font-weight: bold; 
+  	font-style: italic;
+}
+
+#links h3 { 
+ 	text-shadow: 1px 1px black;
+}
+
+p.return {
+  	text-align: right; /*used css to move link to right side of screen to differntiate and make it more visible.*/
+}
