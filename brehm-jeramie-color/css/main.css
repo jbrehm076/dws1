@@ -1,0 +1,70 @@
+/* Colers are Ashmore Cottages theme from adobe kuler @ https://kuler.adobe.com/Ashmore-Cottages-color-theme-2713692/edit/?copy=true*/
+body { 
+     background-color: #61778d;
+     font-family: Palatino Linotype;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+
+h1 { 
+   font-family: Arial;
+   text-shadow: 2px 2px gray;
+   margin-left: -8%;
+}
+
+h2,h3,p { 
+  padding: 10px;
+}
+
+#fsm {
+   float: left;
+   box-shadow: 3px 3px 4px gray;
+   text-align: center;
+   font-family: Lucida Grande;
+   font-style: italic;
+   background-color: lightgray;   
+}
+
+#emblem { 
+   float: right;
+   opacity: 0.4;                  /*added opacity setting to emblem for requirements*/
+   box-shadow: 3px 3px 4px black; /*changed to black because the gray didn't look good*/
+   text-align: center;
+   font-family: Lucida Grande;
+   font-style: italic;
+   background-color: lightgray;       
+}
+
+#general {
+   background-color: rgb(216,212,186);
+   box-shadow: 1px 1px 1px black;
+}
+
+#history { 
+   background-color: #beb090;
+   box-shadow: 1px 1px 1px black;
+}
+
+#history h2{ 
+   text-shadow: 1px 1px lightgray;
+}
+#phenom {
+   background-color: #8a7a63;
+   box-shadow: 1px 1px 1px black;
+}
+#phenom h3 { 
+   text-shadow: 1px 1px darkgray;
+}
+
+#links { 
+       font-style: italic;
+       color: hsl(35, 100%, 57%); /* required content*/
+}
+
+#links h3 { 
+       text-shadow: 1px 1px black;
+}
+
+p.return {
+         text-align: right; /*used css to move link to right side of screen to differntiate and make it more visible.*/
+}
