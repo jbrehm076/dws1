@@ -1,114 +1,111 @@
 body { 
-     font-family: 'Palatino Linotype';
-      margin:5px 100px;
-      border-style: ridge;
+   	font-family: 'Palatino Linotype';
+  	border-style: ridge;
 }
 
 a:link {
-       background-color: white;
-       color: red;
+   	background-color: white;
+  	color: red;
 }
 
 a:visited { 
-         background-color: black;
-         color: yellow;
+  	background-color: black;
+  	color: yellow;
 }
 
 a:hover { 
-        background-color: red;
-        color: black;
+    background-color: red;
+ 	color: black;
 }
 
 a:active {
-         background-color: blue;
-         color: lightgreen;
+   	background-color: blue;
+	color: lightgreen;
 }
+
 h1 { 
-   font-family: 'Londrina Outline', cursive;  /*line for google fonts */
-   font-size: 200%;
-   text-transform: uppercase;
-   text-shadow: 2px 2px black;
-   word-spacing: 20px;
-   border: outset;
+   	font-family: 'Londrina Outline', cursive;  
+   	font-size: 200%;
+   	text-transform: uppercase;
+   	text-shadow: 2px 2px black;
+   	word-spacing: 20px;
+   	border: outset;
 }
 
 h2,h3,p { 
-  padding: 10px;
+  	padding: 10px;
 }
 
 #fsm {
-   margin: 0px auto; /* overrides figure padding and text comes up to sides with 0 margin*/
-   /*float: left;   float commented out to demonstrate margin centering.*/
-   height: 275px;     /*height requirement */
-   box-shadow: 3px 3px 4px gray;
-   text-align: center;
-   font-family: 'Lucida Grande';
-   font-style: italic;
+	float: left;
+   	margin: 0px auto; 
+  	height: 275px;
+   	box-shadow: 3px 3px 4px gray;
+   	text-align: center;
+   	font-family: 'Lucida Grande';
+   	font-style: italic;
 }
 
 #emblem { 
-   float: right;
-   width: 400px;
-   box-shadow: 3px 3px 4px black; /*changed to black because the gray didn't look good*/
-   text-align: center;
-   font-family: 'Lucida Grande';
-   font-style: italic;
+	float: right;
+   	width: 400px;
+	box-shadow: 3px 3px 4px black; 
+   	text-align: center;
+   	font-family: 'Lucida Grande';
+   	font-style: italic;
 }
 
 #general { 
-   border-radius: 20px;
-   box-shadow: 1px 1px 1px black;
+	padding-left: 1%
+   	border-radius: 20px;
+   	box-shadow: 1px 1px 1px black;
 }
 
 #history { 
-   border-radius:10px;
-   box-shadow: 1px 1px 1px black;
-   
-   border-style:solid;
-   border-width:3px;
+   	border-radius:10px;
+   	box-shadow: 1px 1px 1px black;
+   	border-style:solid;
+   	border-width:3px;
 }
 
 #history h2{ 
-   text-shadow: 1px 1px lightgray;
-   margin: 0px auto
-   border-style:double;
-   border-width:3px;
+   	text-shadow: 1px 1px lightgray;
+   	margin: 0px auto
+   	border-style:double;
+ 	border-width:3px;
 }
 
 #history blockquote{ 
-         line-height: 90%;  /*required item */
+	line-height: 90%;  /*required item */
 }
 
 #phenom {
    
-   box-shadow: 1px 1px 1px black;
-   border-style:solid;
-   border-width:3px;
+   	box-shadow: 1px 1px 1px black;
+   	border-style:solid;
+   	border-width:3px;
 }
 #phenom h3 {
-   text-shadow: 1px 1px darkgray;
-   border-style:double;
-   border-width:3px;
+	text-shadow: 1px 1px darkgray;
+   	border-style:double;
+   	border-width:3px;
 }
 
 #links {
-       
-       font-weight: bold; 
-       font-style: italic;
-       border-style:solid;
-       border-width:3px;
-       
-       margin: 0px auto;
+   	font-weight: bold; 
+    font-style: italic;
+    border-style:solid;
+ 	border-width:3px;
+    margin: 0px auto;
 }
 
 #links h3 { 
-       text-shadow: 1px 1px black;
+   	text-shadow: 1px 1px black;
 }
 
 #links li{ 
-       list-style-type:circle;
-       display:inline;
-}&nbsp; 
+   	list-style-type:circle;
+   	display:inline;
 }
 
 p.return {

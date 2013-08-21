@@ -7,13 +7,15 @@ body {
 #column1 {
 	float:left;
 	width: 60%;
-	margin: 5%;
+	margin-left: 5%;
+	overflow: hidden;
 }
 
 #column2 {
 	float: left;
 	width: 25%;
-	margin: 5%;	
+	margin-left: 5%;	
+	border-style: ridge;
 }
 
 h1 { 
