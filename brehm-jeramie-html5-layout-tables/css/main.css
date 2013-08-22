@@ -1,0 +1,100 @@
+/* Colors are Ashmore Cottages theme from adobe kuler @ https://kuler.adobe.com/Ashmore-Cottages-color-theme-2713692/edit/?copy=true*/
+header, section, footer, aside, nav, article, figure, figcaption {  /*html5 shiv*/
+     display: block;
+}
+body { 
+     /*background-color: #61778d;*/
+     color: white;
+     background:
+        url('../images/subtle-wood.gif')
+        repeat left top;
+}
+
+nav li { 
+    display:inline;
+}
+
+#column1 {
+	float:left;
+	width: 60%;
+	margin-left: 5%;
+	overflow: hidden;
+}
+
+aside {
+	float: left;
+	width: 25%;
+	margin-left: 5%;	
+	border-style: ridge;
+    background: linear-gradient(135deg, rgba(169,3,41,1) 0%,rgba(255,0,0,1) 80%);
+}
+
+aside p{ 
+   background: 
+      url("../images/piracy.png")
+      no-repeat left top;
+   padding-left: 40px;
+}
+
+table { 
+    width: 350px;
+	background-color: darkgray;
+    border-spacing: 2px 2px;
+}
+
+th,td { 
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   font-size: 80%; 
+   border-bottom: 2px solid #ffffff;
+   border-top: 1px solid #ffffff;
+   text-align: left;
+}
+
+tr:hover { 
+   background-color: lightgray;
+   color: black;
+}
+
+h1 { 
+   background-color: #2e3340;
+   color: #8a7a63;
+}
+
+h2 { 
+   background-color: rgb(138,122,99);
+   color: #D8D4BA;
+}
+
+#fsm {
+   background-color: lightgray;   
+}
+
+#emblem { 
+   opacity: 0.4;                  /*added opacity setting to emblem for requirements*/
+   background-color: lightgray;       
+}
+
+#general {
+   background-color: rgb(216,212,186);
+}
+
+article { 
+   background-color: #beb090;
+}
+
+section {
+   background-color: #8a7a63;
+}
+
+
+#links {
+	clear: both;
+  	background-color: rgb(216,212,186); 
+   	color: hsl(35, 100%, 57%); /* required content*/
+}
+

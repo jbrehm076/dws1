@@ -1,0 +1,58 @@
+/* Colors are Ashmore Cottages theme from adobe kuler @ https://kuler.adobe.com/Ashmore-Cottages-color-theme-2713692/edit/?copy=true*/
+body { 
+     background-color: #61778d;
+     color: darkblue;
+}
+
+#column1 {
+	float:left;
+	width: 60%;
+	margin-left: 5%;
+	overflow: hidden;
+}
+
+#column2 {
+	float: left;
+	width: 25%;
+	margin-left: 5%;	
+	border-style: ridge;
+}
+
+h1 { 
+   background-color: #2e3340;
+   color: #8a7a63;
+}
+
+h2 { 
+   background-color: rgb(138,122,99);
+   color: #D8D4BA;
+}
+
+#fsm {
+   background-color: lightgray;   
+}
+
+#emblem { 
+   opacity: 0.4;                  /*added opacity setting to emblem for requirements*/
+   background-color: lightgray;       
+}
+
+#general {
+   background-color: rgb(216,212,186);
+}
+
+#history { 
+   background-color: #beb090;
+}
+
+#phenom {
+   background-color: #8a7a63;
+}
+
+
+#links {
+	clear: both;
+  	background-color: rgb(216,212,186); 
+   	color: hsl(35, 100%, 57%); /* required content*/
+}
+
