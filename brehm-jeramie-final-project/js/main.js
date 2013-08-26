@@ -1,12 +1,15 @@
+function quoteMaster() {
+	var r = Math.floor(Math.random()*quotes.length);
+	document.getElementById("quote").innerHTML='"' +quotes[r].quote + '"  ' + '-' + quotes[r].name;
+};
 
-
-function renderTime() {
-	var currentTime = new Date();
+function ticToc() {
+	var time = new Date();
 	var dayNight = "AM";
-	var h = currentTime.getHours();
-	var m = currentTime.getMinutes();
-    var s = currentTime.getSeconds();
-	setTimeout('renderTime()',1000);
+	var h = time.getHours();
+	var m = time.getMinutes();
+    var s = time.getSeconds();
+	setTimeout('ticToc()',1000);
     if (h == 0) {
 		h = 12;
 	} else if (h > 12) { 
@@ -26,5 +29,4 @@ function renderTime() {
 	myClock.textContent = h + ":" + m + ":" + s + " " + dayNight;
 	myClock.innerText = h + ":" + m + ":" + s + " " + dayNight;
 }
-renderTime();
-
+ticToc();
