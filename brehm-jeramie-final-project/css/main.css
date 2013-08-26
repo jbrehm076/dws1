@@ -1,0 +1,86 @@
+ /* CSS by Jeramie Brehm */
+ 
+/*header, section, footer, aside, nav, article, figure, figcaption {display: block;}*/
+
+body { 
+
+} 
+
+header { 
+
+}
+
+header h3 { 
+   font-family: 'Rock Salt', cursive;
+}
+
+nav { 
+   background-color: lightgray;
+}
+
+nav li { 
+   display:inline;
+   
+}
+
+section { 
+   float:left;
+   width: 55%;
+   margin-left: 5%;
+   margin-right: 2.5%;
+   overflow: hidden;
+   background-color: darkgray;
+}
+
+article { 
+   background-color: lightblue;
+}
+
+aside { 
+   float:left;
+   width: 30%;
+   margin-left: 2%;
+   overflow: hidden;
+   background-color: gray;
+   display:inline;
+}
+
+aside li { 
+   display:inline;
+}
+footer { 
+   clear: both;
+   background-color: brown;
+}
+
+footer h3 { 
+   text-align: center;
+}
+
+footer li{ 
+   display:inline;
+}
+
+iframe { 
+   display:inline;
+}
+.return { 
+   float:right;
+   font-style: normal;
+   font-size: 0.875em;
+}
+
+.clockStyle{ 
+   background-color: #000;
+   border: #999 2px inset;
+   border-radius: 5px;
+   padding: 6px;
+   color: #00ff0b;
+   font-family:"Arial Black",Gadget,sans-serif;
+   font-size: 16px;
+   font-weight:bold;
+   letter-spacing: 2px;
+   float:right;
+   display: inline;
+}
+iframe
