@@ -3,71 +3,170 @@
 /*header, section, footer, aside, nav, article, figure, figcaption {display: block;}*/
 
 body {
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('../images/escheresque_ste_@2X.png');
+	background-repeat:repeat;
+	background-position:left top;
+	width: 100%;
+	background-attachment: fixed;
+	clear: both;
 }
+
+a:link    {color:#E1E1E9;}
+a:visited {color:#D7DADD;}
+a:hover   {color:red;}
+a:active  {color:yellow;}
+
 header {
+	background: linear-gradient(135deg, rgba(89,31,39,1) 0%,rgba(255,0,0,1) 50%,rgba(89,31,39,1) 100%);
+	height: 185px;
+	padding-top: 10px;
+	margin-bottom: 2%;
 }
+
+header h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	color: #FFE503;
+	margin-left: 2%;
+	font-size: 36px;
+	text-shadow: 2px 2px black;
+}
+
 header h3 {
 	font-family: 'Rock Salt', cursive;
+	text-indent: 60%;
+	
+	
 }
+
 nav {
-	background-color: lightgray;
+	background-color: #5a5a5a;
+	height: 20px;
+	margin: auto;
+	box-shadow: 2px 2px black;
+
 }
 nav li {
 	display: inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 90%;
+	padding: 1%;
 }
 section {
 	float: left;
-	width: 55%;
-	margin-left: 5%;
-	margin-right: 2.5%;
+	width: 58%;
+	margin: 1% 2% 1% 4%;
 	overflow: hidden;
-	background-color: darkgray;
+	background: linear-gradient(135deg, rgba(89,31,39,1) 0%,rgba(255,0,0,1) 50%,rgba(89,31,39,1) 100%);
+	border-radius: 15px;
+	box-shadow: 2px 2px lightgray;
 }
 article {
-	background-color: lightblue;
+	background-color: #5a5a5a;
+	color:#C9C9C9;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin: 15px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	box-shadow: 2px 2px lightgray;
 }
+
+article h3 {
+	font:Verdana, Geneva, sans-serif;
+	letter-spacing: 1px;
+	font-size: 180%;
+	font-style: italic;
+	color: #E1E1E9;
+	text-shadow: 2px 2px black;
+}
+
 aside {
 	float: left;
 	width: 30%;
-	margin-left: 2%;
+	background: linear-gradient(135deg, rgba(89,31,39,1) 0%,rgba(255,0,0,1) 50%,rgba(89,31,39,1) 100%);
+	color:rgb(164,164,164);
+	opacity: 0.9;
+	margin: 1% 2%;
+	border-radius: 15px;
+	box-shadow: 2px 2px lightgray;	
 	overflow: hidden;
-	background-color: gray;
 	display: inline;
 }
+
 #quote {
+	background-color: #5a5a5a;
+	margin-top: 10px;
 }
-aside li {
-	display: inline;
+
+#collection p { 
+    background:
+       url("../images/strat.png")
+      no-repeat left top;
+    padding-left: 30px;
+}
+
+#iframe {
+	float: left;
+}
+
+form, table {
+	width: 94%;
+	padding: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:;
+	color: black;
+	border-style: solid;
+	text-align: left;
+	background-color: white;
+	border-radius: 15px;	
+}
+
+form:hover {
+	background-color: #60BFBF;
+}
+
+td:hover {
+	background-color: #60BFBF;
+}
+
+input:focus { 
+background-color:yellow;
+}
+
+th, td {
+	border-spacing: 4px 2px;
+	border: 1px solid black;
+	text-transform: lowercase;
 }
 footer {
 	clear: both;
 	background-color: brown;
+	padding: 5px;
 }
+
 footer h3 {
 	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+footer h4 {
+	margin: 2% 1%;
+	font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 footer li {
+	font-family:Arial, Helvetica, sans-serif;
 	display: inline;
+	padding: 1%;
 }
-iframe {
-	float: left;
-	display: inline;
-}
+
 .return {
 	float: right;
 	font-style: normal;
 	font-size: 0.875em;
 }
-.clockStyle {
-	background-color: #000;
-	border: #999 2px inset;
-	border-radius: 5px;
-	padding: 6px;
-	color: #00ff0b;
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	float: right;
-	display: inline;
-}
+

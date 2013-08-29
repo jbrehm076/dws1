@@ -7,7 +7,7 @@ quotes = [
 	{quote:"A lot of people said to me, 'Enough with the guest vocalists for a while. We want to hear the Mexican play the guitar!'", name:"Carlos Santana"},
 	{quote:"If you told me I was going to live to 240, I would take 10 years off and try and act. I don't have that kind of time, so I'd much rather stick to playing guitar.", name:"John Mayer"},
 	{quote:"My guitar was a loyal person to me.", name:"Dave Mustaine"},
-	{quote:"If you have a great-sounding guitar that's a quality instrument ad a good amp, and you know how to make the guitar talk. That's the key. It starts with the guitar and knowing what it should sound and feel like.", name:"Eddie Van Halen"},
+	{quote:"If you have a great-sounding guitar that's a quality instrument, a good amp, and you know how to make the guitar talk. That's the key. It starts with the guitar and knowing what it should sound and feel like.", name:"Eddie Van Halen"},
 	{quote:"Besides being a guitar player, I'm a big fan of the guitar. I love that damn instrument.", name:"Steve Vai"},
 	{quote:"Guitar players never listen to lead singers.", name:"Steven Tyler"},
 	{quote:"Guitar playing isn't really for everybody.", name:"Brad Paisley"},
