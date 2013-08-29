@@ -1,3 +1,3 @@
 https://github.com/jbrehm076/dws1/tree/gh-pages
 
-http://jbrehm076.github.io/dws1/brehm-jeramie-html5-layout-tables/html5-layout-tables.html
+http://jbrehm076.github.io/dws1/brehm-jeramie-forms/forms.html
