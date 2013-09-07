@@ -19,12 +19,12 @@ header {
     
 }
 
-header h1{ 
+header h1 { 
     color: white;
     text-align: center;
     float:left;
 }
-
+	
 #testLinks { 
     background-color: #91bad6;
     float: left;       
