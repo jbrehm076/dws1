@@ -1,0 +1,313 @@
+/*==============================================START GENERIC SECTION====================================*/
+body {
+    background-image: url('../media/fabric.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 { font: 400 30pt "Metrophobic", Arial, serif;}
+h2 { font: 400 24pt "Metrophobic", Arial, serif;}
+h3 ,#table1 td:nth-child(odd){ font: italic 700 16pt "Metrophobic", Arial, serif; }
+
+header {
+    padding:1.5% 2.5% 1.5% 1.5%;
+    border-bottom: 1px solid #ffffff;
+    height: 50px;
+    background: rgba(255, 255, 255, .5)
+}
+#logoBox a{
+    float:left;
+    font:small-caps 400 34pt "Metrophobic", Arial, serif;
+    color:#0E478A;
+    text-shadow: 1px 1px 2px #000;
+    text-decoration:none;
+}
+
+#loginBox {
+    float:right;
+    width:500px;
+    }
+
+#pwordLabel{margin-left:3%;}
+
+#helpBox {
+    width:400px;
+    margin:10px auto;
+    color: #000;
+}
+#helpBox a{color:#000;}
+#helpBox a:nth-child(2){float:right;}
+
+nav {
+    clear:both;
+    height: 30px;
+    padding-top: 5px;
+
+}
+
+nav a {color: #FFDC1F;padding:0 30px;}
+
+#linksBox {float:right; margin-top:5px;}
+
+#contentBox {
+    width:90%;
+    height:60%;
+    margin: 3% auto 0 auto;
+}
+
+#ads {
+    width:90%;
+    height:20%;
+    margin:3% auto 0 auto;
+    text-align:justify;
+}
+
+#ads a{
+    width:15%;
+    height:130px;
+    display:inline-block;
+    background: #000;
+    margin:15px 1% 15px 3%;
+}
+
+#ads a:nth-child(1),#ads2 a:nth-child(1){background-image:url('../media/fender.jpg');background-size: 100%;}
+#ads a:nth-child(2),#ads2 a:nth-child(2){background-image:url('../media/gibson.jpg');background-size: 100%;}
+#ads a:nth-child(3),#ads2 a:nth-child(3){background-image:url('../media/ibanez.jpg');background-size: 100%;}
+#ads a:nth-child(4),#ads2 a:nth-child(4){background-image:url('../media/gretsch.jpg');background-size: 100%;}
+#ads a:nth-child(5){background-image:url('../media/martin.jpg');background-size: 100%;}
+
+footer{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    clear:both;
+    text-align:center;
+    height:40px;
+    padding-top: 1%;
+}
+
+footer a:link {font-style:italic;}
+
+.loginField{width: 20%; padding-left:1%;}
+.loginBtn{
+    margin-left:5px;
+    width:12%;
+    height:22px;
+    font-size: .7em;
+}
+.block {}
+.shape1 {border-radius: 6px;}
+
+.bg1{
+    border-top: 1px solid #1D51FF;
+    border-bottom:1px solid #1D51FF;
+    background: rgba(29, 81, 255, .25)
+}
+.bg2{
+    border-top: 1px solid #fff;
+    border-bottom:1px solid #fff;
+    background: rgba(255, 255, 255, .5);
+}
+.linkD {text-decoration:none}
+.linkD:active{color:#fff;}
+.linkD:visited{color:#000;}
+.linkD:hover{color:#28a3df;}
+
+.linkL {text-decoration:none}
+.linkL:active{color:#fff;}
+.linkL:hover{color:#fff;}
+
+/*==============================================END GENERIC SECTION======================================*/
+/*==============================================START SEARCH SPECIFIC====================================*/
+
+#ctaBox{
+    width:59%;
+    height:90%;
+    margin:2%;
+    background-image:url('../media/guitar.jpg');
+    border:none;
+}
+
+#ctaBox a {color:#1D51FF;text-shadow:none;margin-left:10px;}
+#ctaBox h1{padding:5%; color:#1D51FF;}
+#ctaBox h3{padding:2%; color:#FFDC1F; text-shadow: 2px 2px 5px #000;}
+#ctaBox h3:nth-child(2){margin:28% 0 0 15%;}
+#ctaBox h3:nth-child(3){margin-left: 5%;}
+#innerBox {
+    float:right;
+    width:35%;
+    height:90%;
+    margin:2%;
+}
+
+#sForm {
+    clear:both;
+    display:block;
+}
+
+#sForm fieldset{margin:8%;}
+#sForm legend {
+    padding-bottom:5%;
+    font-size:1.4em;
+}
+#sForm label{
+    margin-left:5%;
+}
+#amount{
+    border:0;
+    color:#FFDC1F;
+    background:none;
+    font-weight:bold;
+}
+#slider-range{
+    margin-left:2%;
+}
+.ui-slider-horizontal{
+    width: 50%;
+    height: .2em;
+}
+.ui-slider .ui-slider-handle{
+    cursor: default;
+    height: .7em;
+    width:.5em;
+    z-index: 2;
+}
+
+#memberBox {
+    border: 1px solid #FFDC1F;
+    padding:0 5% 5% 5%;
+}
+
+.searchBtn {
+    float:right;
+    margin:3% 8% 0 0;
+}
+/*==============================================END SEARCH SPECIFIC======================================*/
+/*==============================================START RESULTS SPECIFIC===================================*/
+
+#userBox {
+    float:right;
+    margin-top:1%;
+    width:400px;;
+}
+#userBox h3{float:left;}
+#userBox a{float:right;}
+
+.homeBtn, .myRackBtn{
+    margin-left:15px;
+    width:20%;
+    height:22px;
+    font-size: .7em;
+}
+
+#ctrlBox{
+    width:25%;
+    height:90%;
+    margin:2%;
+}
+#ctrlBox h2{margin:9% 0 15% 0; text-align:center;}
+#ctrlBox h3{margin:0 0 8% 35%;}
+
+.filterBtn {
+    margin:15% 0 0 25%;
+}
+
+#resultsBox {
+    float:right;
+    width:69%;
+    height:90%;
+    margin:2%;
+    overflow:auto;
+}
+
+#resultsBox h2{
+    margin:3% 0 0 5%;
+}
+.resultsAcc{
+    width:90%;
+    margin:5% auto 0 auto;
+}
+
+
+.infoIcon{
+    display:inline-block;
+    float:right;
+    margin-right:2%;
+}
+/*==============================================END RESULTS SPECIFIC=====================================*/
+/*==============================================START DETAILS SPECIFIC=====================================*/
+#detailBox{
+    float:left;
+    width:68%;
+    height:83%;
+    margin:3% 0 0 5%;
+}
+
+#detInnBox{
+    width:93.5%;
+    height:91.5%;
+    margin:3% auto 3% auto;
+}
+
+#detInnBox h2{margin:5%;}
+
+#detInnBox img {
+    width:40%;
+    height:40%;
+    margin:0 5% 3% 5%;
+    float:left;
+}
+#table1 td{padding-bottom:9%;}
+#table1 td:nth-child(odd){width:125px; text-align:right;}
+#table1 td:nth-child(even){width:125px; padding-left: 20%;}
+
+#detailsLower{float:left; margin:0 5%;}
+#detailsLower h3{margin:2% 0 1% 0;}
+#detailsLower p:nth-child(1){font-style:italic;font-weight:bold;margin-bottom:0.5%;}
+
+#ads2{
+    float:right;
+    width:17%;
+    height:83%;
+    margin:3% 5% 0 0;
+}
+#ads2 a{
+    width:70%;
+    height:120px;
+    display:block;
+    background: #000;
+    margin:12.5% 1% 18% 15%;
+}
+
+/*==============================================END DETAILS SPECIFIC=====================================*/
+/*==============================================END SIGN UP SPECIFIC=====================================*/
+#signupBox{
+    width:60%;
+    height:60%;
+    margin: 3% auto 0 auto;
+}
+
+#signupInner{
+    width:93%;
+    height:90%;
+    margin: 3% auto 0 auto;
+}
+
+#signupInner h2{
+    margin:3% 0 5% 3%;
+}
+
+#form2 div input[type="text"]{width:150px;}
+#cBoxs {width:300px; margin:5% auto;}
+
+.formStyle{
+    width: 80%;
+    margin:2% auto;
+}
+#register-submit{float:right; margin:5% 10% 0 0}
+/*==============================================END SIGN UP SPECIFIC=====================================*/
+/*==============================================MEDIA QUERIES START======================================*/
+@media all and (min-width: 1001px) {
+    body{
+        height:800px;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Guitar Information">
+    <meta name="keywords" content="Guitar, Product Comparison, Recommendations">
+    <meta name="author" content="Jeramie Brehm">
+    <meta charset="UTF-8">
+    <title>Guitar Zone</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700italic,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="jquery/css/redmond/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+    <div id="logoBox">
+        <a href="home.html">Guitar Zone</a>
+    </div>
+    <div id="loginBox">
+        <form id="login">
+            <label for="memberID">Member ID:</label>
+            <input type="text" id="memberID" class="shape1 loginField" name="memberID" value="Enter your ID"/>
+            <label for="pword" id="pwordLabel">Password:</label>
+            <input type="password" id="pword" class="shape1 loginField" name="password" value="********"/>
+            <input type="submit" class="shape1 loginBtn" value="Log In">
+        </form>
+        <div id="helpBox">
+            <a class="linkL" href="signup.html">Join us today!</a>
+            <a class="linkL" href="">Trouble logging in?</a>
+        </div>
+    </div>
+</header>
+<nav class="bg1">
+    <div id="linksBox">
+        <a class="linkL" href="home.html">Home</a>
+        <a class="linkL" href="results.html">Results</a>
+        <a class="linkL" href="details.html">Details</a>
+        <a class="linkL" href="favorites.html">Favorites</a>
+    </div>
+</nav>
+<section id="contentBox" class="bg1 shape1">
+    <div id="innerBox" class="shape1 bg2">
+        <form id="sForm" class="shape1">
+            <fieldset>
+                <legend>Find a Guitar</legend>
+                <label for="types">Type:</label>
+                <select id="types">
+                    <option value="allTypes">All</option>
+                    <option value="acoustic">Acoustic</option>
+                    <option value="electric">Electric</option>
+                    <option value="bass">Bass</option>
+                    <option value="specialty">Specialty</option>
+                </select>
+                <div>
+
+                    <label>Vendor:<input type="text" id="inVendor" list="vendors">
+                    <datalist id="vendors">
+                        <option value="All">
+                        <option value="Fender">
+                        <option value="Gibson">
+                        <option value="Gretsch">
+                        <option value="Ibanez">
+                        <option value="Martin">
+                    </datalist></label>
+                </div>
+                <label for="amount">Price range:</label>
+                <input type="text" id="amount" >
+                <div id="slider-range"></div>
+                <label for="location">Location:</label>
+                <select id="location">
+                    <option value="allLoc">All</option>
+                    <option value="westCoast">West Coast</option>
+                    <option value="eastCoast">East Coast</option>
+                    <option value="central">Central</option>
+                    <option value="oCONUS">Outside CONUS</option>
+                </select>
+            </fieldset>
+            <fieldset id="memberBox" class="shape1">
+                <legend>Member Perks</legend>
+                    <label><input type="checkbox" name="memPerk" value="rating">Show Member ratings.</label><br>
+                    <label><input type="checkbox" name="memPerk" value="comment">Show Member Comments.</label><br>
+                    <label><input type="checkbox" name="memPerk" value="comment">View saved guitars in My Rack.</label>
+            </fieldset>
+            <input type="submit" class="shape1 searchBtn" value="Search">
+        </form>
+    </div>
+    <aside id="ctaBox" class="shape1 bg2">
+        <h1>Unleash the fury</h1>
+        <h3>Tell us about that special guitar you're looking for.</h3>
+        <h3>Become a member and enjoy the benefits.<a href="signup.html">Register here</a></h3>
+    </aside>
+</section>
+<section id="ads" class="bg1 shape1">
+    <a class="adBtn" href="http://www.fender.com"></a>
+    <a class="adBtn" href="http://www.gibson.com"></a>
+    <a class="adBtn" href="http://www.ibanez.com"></a>
+    <a class="adBtn" href="http://www.gretsch.com"></a>
+    <a class="adBtn" href="http://www.martin.com>"></a>
+</section>
+<footer class="bg1">
+    <p>&copy; 2014 <a class="linkD" href="http://www.brehmdesigns.com">brehmdesigns.com</a></p>
+</footer>
+<script type="text/javascript" src="jquery/js/jquery1.10.2.js"></script>
+<script type="text/javascript" src="jquery/js/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
